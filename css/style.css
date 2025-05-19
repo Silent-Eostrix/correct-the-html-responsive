@@ -175,20 +175,20 @@ hr {
 
 	.main_module {
 		display: grid;
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: auto auto;
 	}
 
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
 		margin: 0;
-		grid-column-start: 1;
+		grid-column: 1;
 	}
 
 	.main-sidebar {
 		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0;
-		grid-column-start: 3;
+		grid-column: 2;
 	}
 }
