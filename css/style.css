@@ -175,7 +175,7 @@ hr {
 
 	.main_module {
 		display: grid;
-		grid-template-columns: 1.5fr 1fr;
+		grid-template-columns: 60% 40%;
 		grid-gap: 15px;
 	}
 
